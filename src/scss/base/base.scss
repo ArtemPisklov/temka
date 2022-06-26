@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import 'vars';
+
+html, body{
+	@include params(16px, 19px);
+	font-family: Monserrat, sans-serif;
+}
+
+.container {
+	max-width: $container-width;
+	margin: 0 auto;
+	width: 100%;
+
+	@media (max-width: $md1){
+		max-width: 970px;
+	}
+
+	@media (max-width: $md2){
+		max-width: 750px;
+	}
+
+	@media (max-width: $md3){
+		max-width: none;
+		padding: 0 10px;
+	}
+}
+
+.no-scroll{
+	overflow: hidden;
+}

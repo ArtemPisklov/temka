@@ -1,0 +1,18 @@
+//BASE
+@import './base/null';
+@import './base/base';
+@import './base/vars';
+
+
+//BEM
+@import './multiproject/mobile-button';
+@import './multiproject/mobile-nav';
+@import './multiproject/button.scss';
+
+//BLOCKS
+@import './blocks/navbar';
+@import './blocks/selling';
+@import './blocks/pricing';
+@import './blocks/armen4ik.scss';
+@import './blocks/apply.scss';
+@import './blocks/footer.scss';

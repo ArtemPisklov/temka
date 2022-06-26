@@ -1,0 +1,46 @@
+#selling{
+  background: #f9f7fc;
+  font-family: Montserrat, sans-serif;
+}
+h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 110%;
+  /* identical to box height, or 55px */
+
+  letter-spacing: -0.03em;
+
+  color: #1D2736;
+}
+
+.selling_row{
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+
+}
+.selling_double{
+  border-left: #cacaca 1px solid;
+
+  padding-left: 60px;
+  max-width: 470px;
+}
+
+.selling_double_item{
+  padding-top: 20px;
+}
+
+.selling_heading{
+padding-top: 100px;
+max-width: 568px;
+}
+
+h2{
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pustoi{
+  height: 30px;
+}

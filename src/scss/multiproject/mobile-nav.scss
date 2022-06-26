@@ -1,0 +1,42 @@
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 8;
+
+  display: none;
+  //display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  padding-top: 150px;
+  text-align: center;
+
+
+
+  width: 320px;
+  height: 100%;
+
+  background-color: rgba(11, 29, 34, 0.54);
+}
+
+
+
+
+.mobile-enter {
+
+  a:hover{
+    color: $secondary-color;
+  }
+
+}
+
+
+
+
+@media (max-width: $md2) {
+  .mobile-nav--active{
+    display: flex;
+  }
+}

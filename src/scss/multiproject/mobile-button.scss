@@ -1,0 +1,80 @@
+.nav-button{
+	position: relative;
+	z-index: 9;
+	
+	display: none;
+	height: 25px;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+
+
+.nav-button--icon{
+	position: relative;
+	display: block;
+
+	width: 42px;
+	height: 5px;
+	border: none;
+	background-color: $secondary-color;
+
+
+	&::before{
+		position: absolute;
+		
+		content: '';
+		left: 0;
+		top: -10px;
+		
+		display: block;
+		width: 42px;
+		height: 5px;
+		background-color: $secondary-color;
+
+		transition: transform 0.15s ease-in, top 0.15s ease-in 0.15s;
+
+	}
+
+	&::after{
+		position: absolute;
+		
+		content: '';
+		left: 0;
+		top: 10px;
+		
+		display: block;
+		width: 42px;
+		height: 5px;
+		background-color: $secondary-color;
+
+		transition: transform 0.15s ease-in, top 0.15s ease-in 0.15s;
+	}
+}
+
+
+.nav-button--close{
+	.nav-button--icon{
+		background-color: transparent;
+
+		&::after{
+			transform: rotate(-45deg);
+			top: 0;
+
+			transition: transform 0.15s ease-in 0.15s, top 0.15s Linear;
+		}
+
+		&::before{
+			transform: rotate(45deg);
+			top: 0;
+
+			transition: transform 0.15s ease-in 0.15s, top 0.15s Linear;
+		}
+	}
+}
+
+@media (max-width: $md2) {
+	.nav-button{
+		display: block;
+	}
+}

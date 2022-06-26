@@ -1,0 +1,31 @@
+
+nav{
+	padding-top: 20px;
+}
+
+.nav-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-list {
+	ul{
+		display: flex;
+		align-items: center;
+	}
+
+	li{
+		margin-right: 30px;
+
+		&:last-child{
+			margin-right: 0px;
+		}
+	}
+}
+
+@media (max-width: $md2) {
+	.nav-list{
+		display: none;
+	}
+}
