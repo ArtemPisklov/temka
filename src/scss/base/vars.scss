@@ -1,0 +1,25 @@
+//COLORS
+
+$primary-color: #1D2736;
+$secondary-color: #F0998D;
+$primary-gray: #717A90;
+$secondary-dark: #FD7461;
+
+
+//MIXINS
+
+
+@mixin params($fs, $lh){
+  font-size: $fs;
+  line-height: $lh;
+}
+
+
+
+//
+$container-width: 1160px;
+$md1: $container-width + 52px;
+$md2: 1034.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+$min-width: 320px;

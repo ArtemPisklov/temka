@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import 'vars';
+
+html, body{
+	@include params(18px, 180%);
+	font-family: Montserrat, sans-serif;
+}
+
+.container {
+	max-width: $container-width;
+	margin: 0 auto;
+	width: 100%;
+
+	@media (max-width: $md1){
+		max-width: none;
+		padding: 0 20px;
+	}
+
+	@media (max-width: $md3){
+		max-width: none;
+		padding: 0 10px;
+	}
+}
+
+.no-scroll{
+	overflow: hidden;
+}
