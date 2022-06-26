@@ -1,10 +1,9 @@
 //COLORS
 
-$primary-color: #03283C;
-$primary-dark: #010D14;
-$secondary-color: #FF6200;
-$neutral: #08699E;
-$neutral-light: #D6EFFD;
+$primary-color: #1D2736;
+$secondary-color: #F0998D;
+$primary-gray: #717A90;
+$secondary-dark: #FD7461;
 
 
 //MIXINS
@@ -19,8 +18,8 @@ $neutral-light: #D6EFFD;
 
 //
 $container-width: 1160px;
-$md1: $container-width + 12px;
-$md2: 991.98px;
+$md1: $container-width + 52px;
+$md2: 1034.98px;
 $md3: 767.98px;
 $md4: 479.98px;
 $min-width: 320px;

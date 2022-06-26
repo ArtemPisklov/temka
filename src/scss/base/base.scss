@@ -2,8 +2,8 @@
 @import 'vars';
 
 html, body{
-	@include params(16px, 19px);
-	font-family: Monserrat, sans-serif;
+	@include params(18px, 180%);
+	font-family: Montserrat, sans-serif;
 }
 
 .container {
@@ -12,11 +12,8 @@ html, body{
 	width: 100%;
 
 	@media (max-width: $md1){
-		max-width: 970px;
-	}
-
-	@media (max-width: $md2){
-		max-width: 750px;
+		max-width: none;
+		padding: 0 20px;
 	}
 
 	@media (max-width: $md3){

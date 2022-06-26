@@ -1,0 +1,95 @@
+//JetBrains Mono
+.learn-heading {
+	margin-bottom: 50px;
+	
+	uL{
+		display: flex;
+		gap: 40px
+	}
+
+}
+
+.learn-heading--button{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 180%;
+	color: $primary-color;
+
+	&__active{
+		border-bottom: 1px solid $secondary-color;
+	}
+}
+
+.learn-row {
+	display: flex;
+	justify-content: space-between;
+}
+.learn-text {
+	p{
+		max-width: 368px;
+
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 180%;
+		color: #677487;
+
+		margin-bottom: 30px;
+	}
+}
+
+.learn-text-title{
+
+
+	max-width: 388px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 110%;
+
+	margin-bottom: 24px;
+
+	color: $primary-color;
+
+	.learn-text-title--secondRow{
+		display: flex;
+		gap: 10px;
+
+	}
+
+	.learn-text-title--secondary{
+		color: $secondary-color;
+	}
+}
+
+.learn-text-title--replaces{
+	margin-bottom: 30px;
+	
+	h3{
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 180%;
+		letter-spacing: 0.2em;
+		color: #677487;
+
+		margin-bottom: 8px;
+	}
+
+	ul{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	li{
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 180%;
+		color: $primary-color;
+	}
+}
+
+.learn-img {
+}

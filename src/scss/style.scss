@@ -7,12 +7,15 @@
 //BEM
 @import './multiproject/mobile-button';
 @import './multiproject/mobile-nav';
-@import './multiproject/button.scss';
+@import './multiproject/button';
+
 
 //BLOCKS
 @import './blocks/navbar';
-@import './blocks/selling';
-@import './blocks/pricing';
+@import './blocks/hero';
+@import './blocks/learn';
 @import './blocks/armen4ik.scss';
 @import './blocks/apply.scss';
 @import './blocks/footer.scss';
+@import './blocks/pricing.scss';
+@import './blocks/selling.scss';
